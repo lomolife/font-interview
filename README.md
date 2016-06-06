@@ -45,3 +45,18 @@
       4.发送HTTP请求.
       5.获取异步调用返回的数据.
       6.使用JavaScript和DOM实现局部刷新.
+      
+#### DOCTYPE
+
+      DOCTYPE(Document Type),该声明位于文档中最前面的位置,处于html标签之前,此标签告知浏览器文档使用哪种HTML或者XHTML规范.
+
+
+#### SEO优化
+
+      1.页面描述
+      每个网页都应有一个不超过 150 个字符且能准确反映网页内容的描述标签
+      
+      ```html
+      <meta name="description" content="不超过150个字符"> <!-- 页面描述 -->
+      ```
+
