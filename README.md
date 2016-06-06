@@ -57,4 +57,11 @@
       每个网页都应有一个不超过 150 个字符且能准确反映网页内容的描述标签
       <meta name="description" content="不超过150个字符"> <!-- 页面描述 -->
       
+      2.页面关键词
+      <meta name="keywords" content=""> <!-- 页面关键词 -->
+      
+      3.定义网页搜索引擎索引方式,robotterms是一组使用英文逗号「,」分割的值,通常有如下几种取值：
+      none，noindex，nofollow，all，index和follow
+      <meta name="robots" content="index,follow"> <!-- 搜索引擎抓取 -->
+      
 
