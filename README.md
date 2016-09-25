@@ -331,7 +331,7 @@
         
 ```
 
-> 图片垂直居中
+> div+css实现九宫格
 
 ```html
  <html>
@@ -366,6 +366,26 @@
  		<div class="block_8">8</div>
  		<div class="block_9">9</div>
  	</div>
+ </body>
+ </html>
+
+```
+
+> 图片垂直居中
+
+```html
+<html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<title>未知图片大小垂直居中图片</title>
+ 	<style type="text/css">
+ 	*{margin: 0;padding: 0;}
+ 	.wrap{padding: 20px;width: 1500px;height: 940px;position: relative;background-color: #ddd;overflow: hidden;}
+ 	img{position:absolute;margin: auto;top: 0px;right: 0px;bottom: 0px;left: 0px;}
+ 	</style>
+ </head>
+ <body>
+ 	<div class="wrap"><img src="./33.jpg"></div>
  </body>
  </html>
 
