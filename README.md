@@ -321,11 +321,12 @@
 > 字符串反置
 
 ```html
+        <script>
         var str = "www.123.com",
         result = "";
         for(var i = str.length; i > 0; i--) {
         result += str.charAt(i - 1);
         }
         console.log(result);//结果为"moc.321.www"
-
+        </script>
 ```
