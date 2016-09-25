@@ -330,3 +330,43 @@
         console.log(result);//结果为"moc.321.www"
         
 ```
+
+> 图片垂直居中
+
+```html
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<title>九宫格+未知图片大小垂直居中图片</title>
+ 	<style type="text/css">
+ 	*{margin: 0;padding: 0;}
+ 	.wrap{padding: 20px;width: 940px;height: 940px;position: relative;background-color: #ddd;overflow: hidden;}
+ 	/*img{position:absolute;margin: auto;top: 0px;right: 0px;bottom: 0px;left: 0px;}	*/
+ 	.block_1{text-align: center;line-height: 300px;width: 300px;height: 300px;background-color: white;float: left;}
+ 	.block_2{text-align: center;line-height: 300px;width: 300px;height: 300px;margin-left: 20px;background-color: white;float: left;}
+ 	.block_3{text-align: center;line-height: 300px;width: 300px;height: 300px;background-color: white;float: right;}
+ 	.block_4{text-align: center;line-height: 300px;margin-top: 20px;width: 300px;height: 300px;background-color: white;float: left;}
+ 	.block_5{text-align: center;line-height: 300px;margin-top: 20px;width: 300px;height: 300px;margin-left: 20px;background-color: white;float: left;}
+ 	.block_6{text-align: center;line-height: 300px;margin-top: 20px;width: 300px;height: 300px;background-color: white;float: right;}
+ 	.block_7{text-align: center;line-height: 300px;margin-top: 20px;width: 300px;height: 300px;background-color: white;float: left;}
+ 	.block_8{text-align: center;line-height: 300px;margin-top: 20px;width: 300px;height: 300px;margin-left: 20px;background-color: white;float: left;}
+ 	.block_9{text-align: center;line-height: 300px;margin-top: 20px;width: 300px;height: 300px;background-color: white;float: right;}
+ 	</style>
+ </head>
+ <body>
+ 	<!-- <div class="wrap"><img src="./33.jpg"></div> -->
+ 	<div class="wrap">
+ 		<div class="block_1">1</div>
+ 		<div class="block_2">2</div>
+ 		<div class="block_3">3</div>
+ 		<div class="block_4">4</div>
+ 		<div class="block_5">5</div>
+ 		<div class="block_6">6</div>
+ 		<div class="block_7">7</div>
+ 		<div class="block_8">8</div>
+ 		<div class="block_9">9</div>
+ 	</div>
+ </body>
+ </html>
+
+```
