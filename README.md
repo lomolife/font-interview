@@ -315,3 +315,17 @@
     ViewModel：它是View的抽象，负责View与Model之间信息转换，将View的Command传送到Model；
 
     Model：数据访问层
+    
+#### 校招笔试总结
+
+> 字符串反置
+
+```html
+        var str = "www.123.com",
+        result = "";
+        for(var i = str.length; i > 0; i--) {
+        result += str.charAt(i - 1);
+        }
+        console.log(result);//结果为"moc.321.www"
+
+```
